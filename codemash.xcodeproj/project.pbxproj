@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730E986822B701C000FF5844 /* SessionsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730E986722B701C000FF5844 /* SessionsContainerView.swift */; };
+		731D442422AD302500675E19 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D442322AD302500675E19 /* Session.swift */; };
+		731D442622AD30EA00675E19 /* SessionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 731D442522AD30EA00675E19 /* SessionsData.json */; };
+		731D442822AD317B00675E19 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D442722AD317B00675E19 /* SessionsView.swift */; };
+		731D442C22AD393800675E19 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D442B22AD393800675E19 /* SessionView.swift */; };
+		731D442F22AE76C900675E19 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D442E22AE76C900675E19 /* SessionStore.swift */; };
+		731D443622AE7D1000675E19 /* codemash-watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 731D443522AE7D1000675E19 /* codemash-watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		731D443C22AE7D1000675E19 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731D443A22AE7D1000675E19 /* Interface.storyboard */; };
+		731D443E22AE7D1500675E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731D443D22AE7D1500675E19 /* Assets.xcassets */; };
+		731D444522AE7D1500675E19 /* codemash-watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 731D444422AE7D1500675E19 /* codemash-watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		731D444A22AE7D1500675E19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D444922AE7D1500675E19 /* ContentView.swift */; };
+		731D444C22AE7D1500675E19 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D444B22AE7D1500675E19 /* HostingController.swift */; };
+		731D444E22AE7D1500675E19 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D444D22AE7D1500675E19 /* ExtensionDelegate.swift */; };
+		731D445022AE7D1500675E19 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D444F22AE7D1500675E19 /* NotificationController.swift */; };
+		731D445222AE7D1500675E19 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D445122AE7D1500675E19 /* NotificationView.swift */; };
+		731D445422AE7D1500675E19 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D445322AE7D1500675E19 /* ComplicationController.swift */; };
+		731D445622AE7D1600675E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731D445522AE7D1600675E19 /* Assets.xcassets */; };
+		731D445922AE7D1600675E19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731D445822AE7D1600675E19 /* Preview Assets.xcassets */; };
+		731D446822AE7D5300675E19 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D442E22AE76C900675E19 /* SessionStore.swift */; };
+		731D446922AE7D5B00675E19 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731D442322AD302500675E19 /* Session.swift */; };
+		731D446A22AE7D5D00675E19 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327AB1B22A8730900FD7293 /* Speaker.swift */; };
 		7327AAE922A872BA00FD7293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327AAE822A872BA00FD7293 /* AppDelegate.swift */; };
 		7327AAEB22A872BA00FD7293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327AAEA22A872BA00FD7293 /* SceneDelegate.swift */; };
 		7327AAEE22A872BA00FD7293 /* codemash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7327AAEC22A872BA00FD7293 /* codemash.xcdatamodeld */; };
-		7327AAF022A872BA00FD7293 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327AAEF22A872BA00FD7293 /* ContentView.swift */; };
+		7327AAF022A872BA00FD7293 /* SpeakersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327AAEF22A872BA00FD7293 /* SpeakersView.swift */; };
 		7327AAF222A872BB00FD7293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7327AAF122A872BB00FD7293 /* Assets.xcassets */; };
 		7327AAF522A872BB00FD7293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7327AAF422A872BB00FD7293 /* Preview Assets.xcassets */; };
 		7327AAF822A872BB00FD7293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7327AAF622A872BB00FD7293 /* LaunchScreen.storyboard */; };
 		7327AB0322A872BB00FD7293 /* codemashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327AB0222A872BB00FD7293 /* codemashTests.swift */; };
 		7327AB0E22A872BB00FD7293 /* codemashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327AB0D22A872BB00FD7293 /* codemashUITests.swift */; };
+		7327AB1C22A8730900FD7293 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7327AB1B22A8730900FD7293 /* Speaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		731D443722AE7D1000675E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7327AADD22A872BA00FD7293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731D443422AE7D1000675E19;
+			remoteInfo = "codemash-watch WatchKit App";
+		};
+		731D444622AE7D1500675E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7327AADD22A872BA00FD7293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731D444322AE7D1500675E19;
+			remoteInfo = "codemash-watch WatchKit Extension";
+		};
 		7327AAFF22A872BB00FD7293 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7327AADD22A872BA00FD7293 /* Project object */;
@@ -35,12 +71,60 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		731D445F22AE7D1700675E19 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				731D444522AE7D1500675E19 /* codemash-watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D446322AE7D1700675E19 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				731D443622AE7D1000675E19 /* codemash-watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		730E986722B701C000FF5844 /* SessionsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsContainerView.swift; sourceTree = "<group>"; };
+		731D442322AD302500675E19 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		731D442522AD30EA00675E19 /* SessionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SessionsData.json; sourceTree = "<group>"; };
+		731D442722AD317B00675E19 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		731D442922AD37EF00675E19 /* codemash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = codemash.entitlements; sourceTree = "<group>"; };
+		731D442B22AD393800675E19 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		731D442E22AE76C900675E19 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		731D443222AE7D1000675E19 /* codemash-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codemash-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D443522AE7D1000675E19 /* codemash-watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codemash-watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D443B22AE7D1000675E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		731D443D22AE7D1500675E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731D443F22AE7D1500675E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731D444422AE7D1500675E19 /* codemash-watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "codemash-watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D444922AE7D1500675E19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		731D444B22AE7D1500675E19 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		731D444D22AE7D1500675E19 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		731D444F22AE7D1500675E19 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		731D445122AE7D1500675E19 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		731D445322AE7D1500675E19 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		731D445522AE7D1600675E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731D445822AE7D1600675E19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		731D445A22AE7D1700675E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731D445B22AE7D1700675E19 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		7327AAE522A872BA00FD7293 /* codemash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codemash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7327AAE822A872BA00FD7293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7327AAEA22A872BA00FD7293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7327AAED22A872BA00FD7293 /* codemash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = codemash.xcdatamodel; sourceTree = "<group>"; };
-		7327AAEF22A872BA00FD7293 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7327AAEF22A872BA00FD7293 /* SpeakersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersView.swift; sourceTree = "<group>"; };
 		7327AAF122A872BB00FD7293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7327AAF422A872BB00FD7293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7327AAF722A872BB00FD7293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,9 +135,17 @@
 		7327AB0922A872BB00FD7293 /* codemashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codemashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7327AB0D22A872BB00FD7293 /* codemashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codemashUITests.swift; sourceTree = "<group>"; };
 		7327AB0F22A872BB00FD7293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7327AB1B22A8730900FD7293 /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		731D444122AE7D1500675E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7327AAE222A872BA00FD7293 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,12 +170,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731D442222AD301500675E19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				731D442322AD302500675E19 /* Session.swift */,
+				7327AB1B22A8730900FD7293 /* Speaker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		731D442A22AD387600675E19 /* SwiftUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				7327AAEF22A872BA00FD7293 /* SpeakersView.swift */,
+				731D442722AD317B00675E19 /* SessionsView.swift */,
+				731D442B22AD393800675E19 /* SessionView.swift */,
+				730E986722B701C000FF5844 /* SessionsContainerView.swift */,
+			);
+			path = "SwiftUI Views";
+			sourceTree = "<group>";
+		};
+		731D442D22AE76A400675E19 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				731D442E22AE76C900675E19 /* SessionStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		731D443922AE7D1000675E19 /* codemash-watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				731D443A22AE7D1000675E19 /* Interface.storyboard */,
+				731D443D22AE7D1500675E19 /* Assets.xcassets */,
+				731D443F22AE7D1500675E19 /* Info.plist */,
+			);
+			path = "codemash-watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		731D444822AE7D1500675E19 /* codemash-watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				731D444922AE7D1500675E19 /* ContentView.swift */,
+				731D444B22AE7D1500675E19 /* HostingController.swift */,
+				731D444D22AE7D1500675E19 /* ExtensionDelegate.swift */,
+				731D444F22AE7D1500675E19 /* NotificationController.swift */,
+				731D445122AE7D1500675E19 /* NotificationView.swift */,
+				731D445322AE7D1500675E19 /* ComplicationController.swift */,
+				731D445522AE7D1600675E19 /* Assets.xcassets */,
+				731D445A22AE7D1700675E19 /* Info.plist */,
+				731D445B22AE7D1700675E19 /* PushNotificationPayload.apns */,
+				731D445722AE7D1600675E19 /* Preview Content */,
+			);
+			path = "codemash-watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		731D445722AE7D1600675E19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				731D445822AE7D1600675E19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		7327AADC22A872BA00FD7293 = {
 			isa = PBXGroup;
 			children = (
 				7327AAE722A872BA00FD7293 /* codemash */,
 				7327AB0122A872BB00FD7293 /* codemashTests */,
 				7327AB0C22A872BB00FD7293 /* codemashUITests */,
+				731D443922AE7D1000675E19 /* codemash-watch WatchKit App */,
+				731D444822AE7D1500675E19 /* codemash-watch WatchKit Extension */,
 				7327AAE622A872BA00FD7293 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +251,9 @@
 				7327AAE522A872BA00FD7293 /* codemash.app */,
 				7327AAFE22A872BB00FD7293 /* codemashTests.xctest */,
 				7327AB0922A872BB00FD7293 /* codemashUITests.xctest */,
+				731D443222AE7D1000675E19 /* codemash-watch.app */,
+				731D443522AE7D1000675E19 /* codemash-watch WatchKit App.app */,
+				731D444422AE7D1500675E19 /* codemash-watch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +261,12 @@
 		7327AAE722A872BA00FD7293 /* codemash */ = {
 			isa = PBXGroup;
 			children = (
+				731D442D22AE76A400675E19 /* Stores */,
+				731D442A22AD387600675E19 /* SwiftUI Views */,
+				731D442922AD37EF00675E19 /* codemash.entitlements */,
+				731D442222AD301500675E19 /* Models */,
 				7327AAE822A872BA00FD7293 /* AppDelegate.swift */,
 				7327AAEA22A872BA00FD7293 /* SceneDelegate.swift */,
-				7327AAEF22A872BA00FD7293 /* ContentView.swift */,
 				7327AAF122A872BB00FD7293 /* Assets.xcassets */,
 				7327AAF622A872BB00FD7293 /* LaunchScreen.storyboard */,
 				7327AAF922A872BB00FD7293 /* Info.plist */,
@@ -116,6 +279,7 @@
 		7327AAF322A872BB00FD7293 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				731D442522AD30EA00675E19 /* SessionsData.json */,
 				7327AAF422A872BB00FD7293 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -142,6 +306,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		731D443122AE7D1000675E19 /* codemash-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731D446422AE7D1700675E19 /* Build configuration list for PBXNativeTarget "codemash-watch" */;
+			buildPhases = (
+				731D443022AE7D1000675E19 /* Resources */,
+				731D446322AE7D1700675E19 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731D443822AE7D1000675E19 /* PBXTargetDependency */,
+			);
+			name = "codemash-watch";
+			productName = "codemash-watch";
+			productReference = 731D443222AE7D1000675E19 /* codemash-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		731D443422AE7D1000675E19 /* codemash-watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731D446022AE7D1700675E19 /* Build configuration list for PBXNativeTarget "codemash-watch WatchKit App" */;
+			buildPhases = (
+				731D443322AE7D1000675E19 /* Resources */,
+				731D445F22AE7D1700675E19 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731D444722AE7D1500675E19 /* PBXTargetDependency */,
+			);
+			name = "codemash-watch WatchKit App";
+			productName = "codemash-watch WatchKit App";
+			productReference = 731D443522AE7D1000675E19 /* codemash-watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		731D444322AE7D1500675E19 /* codemash-watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731D445C22AE7D1700675E19 /* Build configuration list for PBXNativeTarget "codemash-watch WatchKit Extension" */;
+			buildPhases = (
+				731D444022AE7D1500675E19 /* Sources */,
+				731D444122AE7D1500675E19 /* Frameworks */,
+				731D444222AE7D1500675E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "codemash-watch WatchKit Extension";
+			productName = "codemash-watch WatchKit Extension";
+			productReference = 731D444422AE7D1500675E19 /* codemash-watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		7327AAE422A872BA00FD7293 /* codemash */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7327AB1222A872BB00FD7293 /* Build configuration list for PBXNativeTarget "codemash" */;
@@ -205,6 +420,15 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Brandon Campbell";
 				TargetAttributes = {
+					731D443122AE7D1000675E19 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					731D443422AE7D1000675E19 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					731D444322AE7D1500675E19 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					7327AAE422A872BA00FD7293 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -234,17 +458,46 @@
 				7327AAE422A872BA00FD7293 /* codemash */,
 				7327AAFD22A872BB00FD7293 /* codemashTests */,
 				7327AB0822A872BB00FD7293 /* codemashUITests */,
+				731D443122AE7D1000675E19 /* codemash-watch */,
+				731D443422AE7D1000675E19 /* codemash-watch WatchKit App */,
+				731D444322AE7D1500675E19 /* codemash-watch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		731D443022AE7D1000675E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D443322AE7D1000675E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D443E22AE7D1500675E19 /* Assets.xcassets in Resources */,
+				731D443C22AE7D1000675E19 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731D444222AE7D1500675E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D445922AE7D1600675E19 /* Preview Assets.xcassets in Resources */,
+				731D445622AE7D1600675E19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7327AAE322A872BA00FD7293 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7327AAF822A872BB00FD7293 /* LaunchScreen.storyboard in Resources */,
 				7327AAF522A872BB00FD7293 /* Preview Assets.xcassets in Resources */,
+				731D442622AD30EA00675E19 /* SessionsData.json in Resources */,
 				7327AAF222A872BB00FD7293 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,13 +519,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		731D444022AE7D1500675E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D444C22AE7D1500675E19 /* HostingController.swift in Sources */,
+				731D444A22AE7D1500675E19 /* ContentView.swift in Sources */,
+				731D445022AE7D1500675E19 /* NotificationController.swift in Sources */,
+				731D444E22AE7D1500675E19 /* ExtensionDelegate.swift in Sources */,
+				731D445222AE7D1500675E19 /* NotificationView.swift in Sources */,
+				731D446822AE7D5300675E19 /* SessionStore.swift in Sources */,
+				731D446A22AE7D5D00675E19 /* Speaker.swift in Sources */,
+				731D445422AE7D1500675E19 /* ComplicationController.swift in Sources */,
+				731D446922AE7D5B00675E19 /* Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7327AAE122A872BA00FD7293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7327AAEE22A872BA00FD7293 /* codemash.xcdatamodeld in Sources */,
 				7327AAE922A872BA00FD7293 /* AppDelegate.swift in Sources */,
-				7327AAF022A872BA00FD7293 /* ContentView.swift in Sources */,
+				731D442822AD317B00675E19 /* SessionsView.swift in Sources */,
+				731D442C22AD393800675E19 /* SessionView.swift in Sources */,
+				731D442422AD302500675E19 /* Session.swift in Sources */,
+				730E986822B701C000FF5844 /* SessionsContainerView.swift in Sources */,
+				731D442F22AE76C900675E19 /* SessionStore.swift in Sources */,
+				7327AB1C22A8730900FD7293 /* Speaker.swift in Sources */,
+				7327AAF022A872BA00FD7293 /* SpeakersView.swift in Sources */,
 				7327AAEB22A872BA00FD7293 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +571,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		731D443822AE7D1000675E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731D443422AE7D1000675E19 /* codemash-watch WatchKit App */;
+			targetProxy = 731D443722AE7D1000675E19 /* PBXContainerItemProxy */;
+		};
+		731D444722AE7D1500675E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731D444322AE7D1500675E19 /* codemash-watch WatchKit Extension */;
+			targetProxy = 731D444622AE7D1500675E19 /* PBXContainerItemProxy */;
+		};
 		7327AB0022A872BB00FD7293 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7327AAE422A872BA00FD7293 /* codemash */;
@@ -309,6 +594,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		731D443A22AE7D1000675E19 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731D443B22AE7D1000675E19 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		7327AAF622A872BB00FD7293 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -320,6 +613,112 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		731D445D22AE7D1700675E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"codemash-watch WatchKit Extension\"/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "codemash-watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandoncampbell.codemash-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		731D445E22AE7D1700675E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"codemash-watch WatchKit Extension\"/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "codemash-watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandoncampbell.codemash-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		731D446122AE7D1700675E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = codemash_watch_WatchKit_Extension;
+				INFOPLIST_FILE = "codemash-watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandoncampbell.codemash-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		731D446222AE7D1700675E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = codemash_watch_WatchKit_Extension;
+				INFOPLIST_FILE = "codemash-watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandoncampbell.codemash-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		731D446522AE7D1700675E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandoncampbell.codemash-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		731D446622AE7D1700675E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandoncampbell.codemash-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		7327AB1022A872BB00FD7293 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -438,8 +837,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = codemash/codemash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "codemash/Preview\\ Content";
+				DEVELOPMENT_TEAM = RT3LT59E9Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = codemash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -448,6 +850,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.brandoncampbell.codemash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,8 +860,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = codemash/codemash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "codemash/Preview\\ Content";
+				DEVELOPMENT_TEAM = RT3LT59E9Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = codemash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,6 +873,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.brandoncampbell.codemash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -478,6 +885,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT3LT59E9Y;
 				INFOPLIST_FILE = codemashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,6 +906,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT3LT59E9Y;
 				INFOPLIST_FILE = codemashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,6 +926,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT3LT59E9Y;
 				INFOPLIST_FILE = codemashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,6 +946,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT3LT59E9Y;
 				INFOPLIST_FILE = codemashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,6 +964,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		731D445C22AE7D1700675E19 /* Build configuration list for PBXNativeTarget "codemash-watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D445D22AE7D1700675E19 /* Debug */,
+				731D445E22AE7D1700675E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731D446022AE7D1700675E19 /* Build configuration list for PBXNativeTarget "codemash-watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D446122AE7D1700675E19 /* Debug */,
+				731D446222AE7D1700675E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731D446422AE7D1700675E19 /* Build configuration list for PBXNativeTarget "codemash-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D446522AE7D1700675E19 /* Debug */,
+				731D446622AE7D1700675E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7327AAE022A872BA00FD7293 /* Build configuration list for PBXProject "codemash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

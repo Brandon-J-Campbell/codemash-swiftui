@@ -12,18 +12,39 @@ import SwiftUI
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
-
+    var sessionStore: SessionStore!
+    
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
-        // Use a UIHostingController as window root view controller
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = UIHostingController(rootView: ContentView())
-        self.window = window
-        window.makeKeyAndVisible()
+        var testSessions = Array<Session>.init()
+        if let url = Bundle.main.url(forResource: "SessionsData", withExtension: "json") {
+            if let data = NSData(contentsOf: url) {
+                do {
+                    let array : Array<Any?> = try JSONSerialization.jsonObject(with: data as Data, options: [.allowFragments]) as! Array<Any?>
+                    for dict : Dictionary<String, Any> in array as! Array<Dictionary<String, Any>> {
+                        let session = Session.parse(fromDictionary: dict)
+                        testSessions.append(session)
+                    }
+                } catch {
+                    print("Error!! Unable to parse SessionsData.json")
+                }
+            } else {
+                print("Error!! Unable to load SessionsData.json")
+            }
+        }
+
+        sessionStore = SessionStore.init(sessions: testSessions)
+        let contentView = SessionsView(store: sessionStore)
+        
+        if let windowScene = scene as? UIWindowScene {
+           let window = UIWindow(windowScene: windowScene)
+           window.rootViewController = UIHostingController(rootView: contentView)
+           self.window = window
+           window.makeKeyAndVisible()
+       }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  codemash
+//  codemash-watch WatchKit Extension
 //
-//  Created by Brandon Campbell on 6/5/19.
+//  Created by Brandon Campbell on 6/10/19.
 //  Copyright © 2019 Brandon Campbell. All rights reserved.
 //
 
